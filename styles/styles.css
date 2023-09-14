@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel&family=Crimson+Text&family=Lora&family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: rgba(156, 212, 195, 0.801);
+    color: black;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.descricao__imagem{
+    width: 45%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.descricao__text__subtitulo__classificacao{
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    margin-left: 3%;
+    margin-top: 3%;
+
+}
+
+.descricao__text__principal{
+    margin-top: 3%;
+    margin-left: 5%;
+    gap: 35px;
+}
+
+.descricao__text__principal__nomeDoProduto{
+    font-family: 'Crimson Text', serif;
+    font-size: 2rem;
+
+}
+
+.descricao__text__principal__caracteristicas{
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.15rem;
+    font-size: 300;
+}
+
+.descricao__text__valores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 12%;
+}
+
+.descricao__text__valores__preco{
+    font-family:'Abril Fatface', cursive;
+    font-size: 2.3rem;
+    color: rgba(28, 187, 160, 0.61);
+}
+
+.descricao__text__valores__promocao{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 600;
+    text-decoration: line-through;
+
+}
+
+.descricao__butao{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(28, 187, 160, 0.61);
+    padding: 3% 3%;
+    margin: 8% 30%;
+    border-radius: 8px;
+}
+
+
+.descricao__butao__comprar{
+    
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: black;
+
+    
+}
+
+.descricao__butao__carrinho{
+    width: 30%;
+}
+
+
+@media (max-width:1000px) {
+
+    .descricao{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 10%;
+    }
+    
+    .descricao__imagem{
+        border-top-right-radius: 12px ;
+        border-top-right-radius: 12px ;
+        border-bottom-left-radius: 0px;
+        width: auto;
+        
+
+    }
+
+    .descricao__text__principal__nomeDoProduto{
+        font-family: 'Crimson Text', serif;
+        font-size: 3rem;
+    
+    }
+    
+    .descricao__text__principal__caracteristicas{
+        margin-top: 2%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.6rem;
+        font-size: 300;
+    }
+
+    .descricao__text__valores__preco{
+        font-family:'Abril Fatface', cursive;
+        font-size: 3rem;
+        color: rgba(28, 187, 160, 0.61);
+    }
+    
+    .descricao__text__valores__promocao{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8rem;
+        color: black;
+        font-weight: 600;
+        text-decoration: line-through;
+    
+    }
+
+    .descricao__butao__comprar{
+        font-size: 1.4rem;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: black;
+    }
+    
+       
+
+    
+    
+}
+
